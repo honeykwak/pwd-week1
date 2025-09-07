@@ -7,32 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>곽재헌</h1>
-        <p>디지털미디어학과(주전공), 소프트웨어학과(복수전공)</p>
-        <p>아주대학교 인문과학연구소 학부연구생</p>
-    </header>
+    <div class="container">
+        <aside class="profile-section">
+            <header>
+                <img src="https://just-publish-kjh-4-1.s3.us-east-1.amazonaws.com/for-profile/test1.jpeg" alt="프로필 사진" id="profile-pic">
+                <h1>곽재헌</h1>
+                <p>디지털미디어학과(주전공), 소프트웨어학과(복수전공)</p>
+                <p>아주대학교 인문과학연구소 학부연구생</p>
+            </header>
+        </aside>
 
-    <main>
-        <section id="projects">
+        <main class="projects-section">
             <h2>최근 작업물</h2>
             <p class="instruction">작업물 제목을 클릭하면 설명이 나타납니다.</p>
             <ul>
                 <li class="project-item">
-                    <h3 class="project-title">연구소 내 호적 데이터 시각화 연구 (진행중)</h3>
-                    <p class="description">조선 후기 호적 자료인 만성대동보의 데이터를 분석하고 인터랙티브 웹 기술을 통해 시각화하여, 일반인과 연구자들이 데이터에 쉽게 접근하고 인사이트를 얻을 수 있도록 돕는 연구 프로젝트입니다. <a href="https://manseong-daedongbo-viz.vercel.app/" target="_blank">프로젝트 보기</a></p>
+                    <img src="https://just-publish-kjh-4-1.s3.us-east-1.amazonaws.com/for-profile/mansung_capture.png" alt="호적 데이터 시각화 연구" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">연구소 내 호적 데이터 시각화 연구 (진행중)</h3>
+                        <p class="description">조선 후기 호적 자료인 만성대동보의 데이터를 분석하고 인터랙티브 웹 기술을 통해 시각화하여, 일반인과 연구자들이 데이터에 쉽게 접근하고 인사이트를 얻을 수 있도록 돕는 연구 프로젝트입니다. <a href="https://manseong-daedongbo-viz.vercel.app/" target="_blank">프로젝트 보기</a></p>
+                    </div>
                 </li>
                 <li class="project-item">
-                    <h3 class="project-title">블록체인 거버넌스 연구</h3>
-                    <p class="description">블록체인 네트워크의 의사결정 과정(거버넌스)에서 나타나는 참여자들의 상호작용과 영향력을 시각적으로 분석하여, 거버넌스 모델의 투명성과 효율성을 평가하는 연구입니다. <a href="https://contextualalliancevis.vercel.app/" target="_blank">프로젝트 보기</a></p>
+                    <img src="https://just-publish-kjh-4-1.s3.us-east-1.amazonaws.com/for-profile/caviz_capture.png" alt="블록체인 거버넌스 연구" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">블록체인 거버넌스 연구</h3>
+                        <p class="description">블록체인 네트워크의 의사결정 과정(거버넌스)에서 나타나는 참여자들의 상호작용과 영향력을 시각적으로 분석하여, 거버넌스 모델의 투명성과 효율성을 평가하는 연구입니다. <a href="https://contextualalliancevis.vercel.app/" target="_blank">프로젝트 보기</a></p>
+                    </div>
                 </li>
                 <li class="project-item">
-                    <h3 class="project-title">데이터 시각화 툴 데모</h3>
-                    <p class="description">사용자가 텍스트 데이터를 입력하면 자동으로 워드 클라우드를 생성해주는 간단한 웹 애플리케이션입니다. 데이터 시각화 라이브러리 활용 능력을 보여주는 데모 프로젝트입니다. <a href="https://word-cloud-maker.vercel.app/" target="_blank">프로젝트 보기</a></p>
+                    <img src="https://just-publish-kjh-4-1.s3.us-east-1.amazonaws.com/for-profile/vizdemo_capture.png" alt="데이터 시각화 툴 데모" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">데이터 시각화 툴 데모</h3>
+                        <p class="description">사용자가 텍스트 데이터를 입력하면 자동으로 워드 클라우드를 생성해주는 간단한 웹 애플리케이션입니다. 데이터 시각화 라이브러리 활용 능력을 보여주는 데모 프로젝트입니다. <a href="https://word-cloud-maker.vercel.app/" target="_blank">프로젝트 보기</a></p>
+                    </div>
                 </li>
             </ul>
-        </section>
-    </main>
+        </main>
+    </div>
 
     <script src="script.js"></script>
 </body>
